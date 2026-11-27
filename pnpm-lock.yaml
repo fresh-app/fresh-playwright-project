@@ -189,8 +189,8 @@ importers:
         specifier: ^1.65.1
         version: 1.65.1
       '@types/node':
-        specifier: ^26.6.8
-        version: 26.6.8
+        specifier: ^26.6.11
+        version: 26.6.11
 
 packages:
 
@@ -199,8 +199,8 @@ packages:
     engines: {node: '>=20'}
     hasBin: true
 
-  '@types/node@26.6.8':
-    resolution: {integrity: sha512-Xo5PW7XYoTRn8nhGBo73qpqBMFvkCIX0g0m6jtWpPo7C7oeEaMdjBJtNBNZDISRpx9/LvvIqvf9tUB3I+mDTSQ==}
+  '@types/node@26.6.11':
+    resolution: {integrity: sha512-uUyQ2XLEz+EXh34lmS3GhKrkqn/8FU7KUiKRpk347At2bmnMVWss45yz8b4FG/tUtmV1tV/+TVkITItPROyeeQ==}
 
   playwright-core@1.65.1:
     resolution: {integrity: sha512-hqPpz7blSMPxWVdoeE1yiBSzXsKiVOd2k+kjCvmUywD2GPO2Dd9HfcWnq9NN0GHbNZDFgZ9JfBFr+X5/BLo0qw==}
@@ -221,7 +221,7 @@ snapshots:
     dependencies:
       playwright: 1.65.1
 
-  '@types/node@26.6.8':
+  '@types/node@26.6.11':
     dependencies:
       undici-types: 8.9.0
 
